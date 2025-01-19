@@ -12,4 +12,11 @@
    ```bash
    composer install
 
-3. **Set db name on env, migrate & db:seed**:
+3. **Set db name on env, migrate & db:seed**
+
+2. **API Docs**:
+   ```bash
+   GET http://127.0.0.1:8000/api/employee
+   GET http://127.0.0.1:8000/api/employee/store
+   POST http://127.0.0.1:8000/api/employee/update/{employee_id}
+   DELETE http://127.0.0.1:8000/api/employee/{employee_id}
