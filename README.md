@@ -16,6 +16,8 @@
 
 2. **API Docs**:
    ```bash
+   https://www.postman.com/winter-desert-890112/test-be/collection/o0esfrd/be-test
+   
    GET http://127.0.0.1:8000/api/employee
    GET http://127.0.0.1:8000/api/employee/store
    POST http://127.0.0.1:8000/api/employee/update/{employee_id}
